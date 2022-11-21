@@ -6632,10 +6632,6 @@ img{
     justify-content: center;
 }
 
-.areas-section .col-lg-2:not(:first-child) .areas-box{
-	margin-left: 20px;
-}
-
 .about1-img img {
     border-radius: 240px !important;
 }
@@ -7437,4 +7433,21 @@ a.read-more:before {
 
 .testimonial-section .sec-title p{
 	margin-top: 20px;
+}
+
+.practice-grid{
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+}
+
+.practice-grid .col-lg-2{
+	max-width: 100%;
+}
+
+.areas-box p {
+   max-width: 400px;
+}
+
+.areas-box img{
+	width: 60px;
 }
