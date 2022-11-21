@@ -784,4 +784,6 @@
 		handlePreloader();
 	});	
 
+	$(".sticky-header .logo a").attr('href','index.html');
+
 })(window.jQuery);
